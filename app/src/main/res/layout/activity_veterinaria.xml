@@ -7,46 +7,47 @@
 
     <TextView
         android:id="@+id/serie_veterinaria"
-        android:layout_width="308dp"
-        android:layout_height="47dp"
+        android:layout_width="219dp"
+        android:layout_height="25dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:hint="Serie"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.575"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/numero_veterinaria" />
-
-    <TextView
-        android:id="@+id/descripcion_veterinaria"
-        android:layout_width="308dp"
-        android:layout_height="47dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="16dp"
-        android:hint="Descripcion"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/serie_veterinaria" />
+        app:layout_constraintTop_toBottomOf="@+id/creatura_veterinaria" />
 
     <TextView
         android:id="@+id/revisiones_veterinaria"
-        android:layout_width="308dp"
-        android:layout_height="47dp"
+        android:layout_width="219dp"
+        android:layout_height="25dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         android:hint="Revision"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintHorizontal_bias="0.575"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/descripcion_veterinaria" />
 
     <TextView
+        android:id="@+id/descripcion_veterinaria"
+        android:layout_width="219dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Descripcion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/serie_veterinaria" />
+
+    <TextView
         android:id="@+id/direccion_veterinaria"
-        android:layout_width="308dp"
-        android:layout_height="47dp"
+        android:layout_width="219dp"
+        android:layout_height="25dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="16dp"
@@ -54,47 +55,78 @@
         android:hint="Direccion"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintHorizontal_bias="0.575"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/revisiones_veterinaria"
-        app:layout_constraintVertical_bias="0.095" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/numero_veterinaria"
-        android:layout_width="312dp"
-        android:layout_height="49dp"
+        android:layout_width="219dp"
+        android:layout_height="25dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:hint="Numero"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintHorizontal_bias="0.575"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/apellido_veterinaria" />
 
     <TextView
         android:id="@+id/apellido_veterinaria"
-        android:layout_width="310dp"
-        android:layout_height="58dp"
+        android:layout_width="219dp"
+        android:layout_height="25dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="16dp"
         android:hint="Apellidos"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintHorizontal_bias="0.575"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nombre_veterinaria" />
 
     <TextView
         android:id="@+id/nombre_veterinaria"
-        android:layout_width="311dp"
-        android:layout_height="48dp"
+        android:layout_width="219dp"
+        android:layout_height="25dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="16dp"
         android:hint="Nombre"
+        android:textColor="#050505"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/datos_veterinaria" />
+
+    <TextView
+        android:id="@+id/datos_veterinaria"
+        android:layout_width="154dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="24dp"
+        android:text="DATOS PERSONALES"
+        android:textAlignment="center"
+        android:textColor="#0889EF"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/creatura_veterinaria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="DATOS DE LA CREATURA"
+        android:textAlignment="center"
+        android:textColor="#058BF6"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numero_veterinaria" />
 </androidx.constraintlayout.widget.ConstraintLayout>

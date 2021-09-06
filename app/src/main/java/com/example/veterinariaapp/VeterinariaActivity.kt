@@ -39,6 +39,8 @@ class VeterinariaActivity : AppCompatActivity(){
             descripcion_veterinaria.text = veterinaria.descripcion
             revisiones_veterinaria.text = veterinaria.revisiones
             direccion_veterinaria.text = veterinaria.direccion
+            //datos_veterinaria.text = veterinaria.datos
+           // creatura_veterinaria.text = veterinaria.creatura
 
         })
 

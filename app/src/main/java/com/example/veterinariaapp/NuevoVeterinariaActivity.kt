@@ -37,6 +37,8 @@ class NuevoVeterinariaActivity : AppCompatActivity() {
             val descripcion = descripcion_veti.text.toString()
             val revisiones = revisiones_veti.text.toString()
             val direccion = direccion_veti.text.toString()
+           // val creatura = creatura_veti.text.toString()
+            // val datos = datos_veti.text.toString()
 
             val veterinaria = Veterinaria(nombre, apellido, numero, serie, descripcion, revisiones, direccion)
 

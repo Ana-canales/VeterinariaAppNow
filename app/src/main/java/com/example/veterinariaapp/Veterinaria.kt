@@ -14,6 +14,8 @@ class Veterinaria(
     val descripcion: String,
     val revisiones: String,
     val direccion: String,
+   // val datos: String,
+   // val creatura: String,
     @PrimaryKey(autoGenerate = true)
     var idVeterinaria: Int = 0
 
